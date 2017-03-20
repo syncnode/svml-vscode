@@ -1,0 +1,35 @@
+let s = null;
+
+/* 
+Test 
+*/
+
+/#
+
+MainView
+	#title
+	style {
+        color: #F00;
+	}
+
+let t = "yes";
+let d = svml;
+let r = test;
+
+#/
+
+class MyClass1<SynData> {
+
+}
+
+fuck MyClass2 {
+
+}
+
+
+let test = svml;
+
+
+for(let c = 0; c < 10; c++) {
+    let t = 5;
+}
