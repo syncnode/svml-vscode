@@ -11,7 +11,8 @@ function readYaml(fileName) {
     return yaml.safeLoad(text);
 }
 function changeTsToTsx(str) {
-    return str.replace(/\.ts/g, '.tsx');
+    return str;
+    //return str.replace(/\.ts/g, '.tsx');
 }
 function fixGrammarScopeNames(rule) {
     if (typeof rule.name === 'string') {
@@ -41,10 +42,13 @@ function changeTsToTsxGrammar(grammar) {
     var updatesRepository = tsxUpdates.repository;
     for (var key in updatesRepository) {
         switch (key) {
+            /*
             case "expression":
                 // Update expression
+                console.log('key', key);
                 repository[key].patterns.unshift(updatesRepository[key].patterns[0]);
                 break;
+                */
             default:
                 // Add jsx 
                 repository[key] = updatesRepository[key];

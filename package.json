@@ -11,16 +11,25 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "svml",
-            "aliases": ["TypeScript-SVML", "svml"],
-            "extensions": ["svml"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "svml",
-            "scopeName": "source.svml",
-            "path": "./syntaxes/TypeScript.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "svml",
+                "aliases": [
+                    "TypeScript-SVML",
+                    "svml"
+                ],
+                "extensions": [
+                    "svml"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "svml",
+                "scopeName": "source.svml",
+                "path": "./syntaxes/TypeScript.tmLanguage"
+            }
+        ]
     }
 }
